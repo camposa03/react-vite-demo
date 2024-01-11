@@ -1,5 +1,5 @@
 import styles from "./Welcome.module.css";
-import ListingCard from "../Listingcard";
+import ListingCard from "../ListingCard";
 import { Grid, Typography } from "@mui/material";
 import DisplayField from "./DisplayField";
 

@@ -1,4 +1,4 @@
-import ListingCard from "../components/Listingcard";
+import ListingCard from "../components/ListingCard";
 import { Grid } from "@mui/material";
 export default function SampleGrid() {
   return (
