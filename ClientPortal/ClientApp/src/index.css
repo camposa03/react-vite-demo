@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #f2f2f2;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,10 +24,29 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  display: block;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+.footer{
+  background-color: #112542;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.nav-bar {
+  background-color: #112542 !important;
+  position: relative;
+  top: -1px;
+}
+
+.nav-bar .americorps-logo {
+  text-align: justify;
+  cursor: pointer;
 }
 
 h1 {

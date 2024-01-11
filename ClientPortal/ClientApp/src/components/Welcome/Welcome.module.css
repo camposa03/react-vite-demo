@@ -1,0 +1,56 @@
+.label {
+  color: black;
+  text-align: left;
+}
+.profileLink{
+  text-decoration: underline;
+  color: black;
+}
+.editProfile{
+  cursor: pointer;
+  text-align: right;
+  color: red;
+  background-color: #F6C000;
+  margin: auto;
+
+}
+.userProfile {
+  background-color: #F6C000;
+  color: black;
+  position: initial;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.container{
+  background-color: white;
+  border-radius: 22px;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.user-container {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+}
+
+.user-info-item {
+  margin-bottom: 10px;
+}
+
+.value {
+  margin-top: 5px;
+  color: lightgray;
+}
+.sidebar{
+  background-color: red !important;
+  position: fixed;
+  height: '200px';
+}
+.columnHeader{
+  color: black;
+  text-align: left;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
